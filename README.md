@@ -11,6 +11,7 @@
 
 - has_many :posts
 
+
 ## postsテーブル
 
 |Column|Type|Options|
