@@ -1,11 +1,11 @@
-.postTitle
+.post-title
   = @post.title
-.postDate
+.post-date
   = @post.created_at
-.postAuthor
+.post-author
 - if user_signed_in? && current_user.id == @post.user_id
-  .postManage
+  .post-manage
     = link_to "編集", edit_post_path(@post.id), class: "postManage__edit"
     = link_to "削除", post_path(@post.id), method: :delete, class: "postManage__delete"
-.postText
+.post-text
   = simple_format @post.content
