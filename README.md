@@ -2,9 +2,9 @@
 
 ## usersテーブル
 
-|Column|Type|Options|
-|------|----|-------|
-|email|string|null: false|
+|Column  |Type  |Options    |
+|--------|------|-----------|
+|email   |string|null: false|
 |nickname|string||
 
 ### Association
@@ -14,9 +14,9 @@
 
 ## postsテーブル
 
-|Column|Type|Options|
-|------|----|-------|
-|title|text||
+|Column |Type|Options|
+|-------|----|-------|
+|title  |text||
 |content|text||
 
 ### Association
