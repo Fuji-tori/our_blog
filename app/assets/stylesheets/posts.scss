@@ -26,6 +26,7 @@ body{
       }
     }
   }
+  
   .contents{
     margin: 30px auto 0;
     background-color: $white;
@@ -76,22 +77,26 @@ body{
         text-align: center;
       }
     }
+
     .post-title{
       padding-top: 20px;
       text-align: center;
       font-size: 20px;
       font-weight: bold;
     }
+
     .post-date{
       font-size: 15px;
       color: $gray;
       text-align: center;
     }
+    
     .post-author{
       font-size: 15px;
       color: $gray;
       text-align: center;
     }
+
     .post-manage{
       display: flex;
       justify-content: center;
@@ -119,6 +124,7 @@ body{
       margin: 20px 30px;
     }
   }
+
   .form{
     width: 85%;
     height: 100%;
@@ -141,6 +147,7 @@ body{
       margin: 15px auto 0;
     }
   }
+
   .user{
     padding: 15px 30px;
   }
