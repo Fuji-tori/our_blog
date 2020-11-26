@@ -2,6 +2,6 @@
   新規記事の作成
 .form
   = form_for @post do |f|
-    = f.text_field :title, placeholder: 'タイトル', class: 'form__title'
-    = f.text_area :content, placeholder: 'ブログ本文', class: 'form__text'
-    = f.submit '投稿する', class: 'form__btn'
+    = f.text_field :title, placeholder: "タイトル", class: "form__title"
+    = f.text_area :content, placeholder: "ブログ本文", class: "form__text"
+    = f.submit "投稿する", class: "form__btn"
