@@ -1,8 +1,8 @@
 .post-title
   = @post.title
+
 .post-date
   = @post.created_at
-
 .post-author
 - if user_signed_in? && current_user.id == @post.user_id
   .post-manage
