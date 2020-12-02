@@ -556,7 +556,8 @@ ul li {
   width: 98.2%;
 }
 
-.row:before, .row:after {
+.row:before,
+.row:after {
   content: " ";
   display: table;
 }
@@ -587,7 +588,8 @@ ul li {
   *zoom: 1;
 }
 
-.row .row:before, .row .row:after {
+.row .row:before,
+.row .row:after {
   content: " ";
   display: table;
 }
@@ -602,7 +604,8 @@ ul li {
   *zoom: 1;
 }
 
-.row .row.collapse:before, .row .row.collapse:after {
+.row .row.collapse:before,
+.row .row.collapse:after {
   content: " ";
   display: table;
 }
