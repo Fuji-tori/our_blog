@@ -6,8 +6,8 @@
 .post-author
 - if user_signed_in? && current_user.id == @post.user_id
   .post-manage
-    = link_to "編集", edit_post_path(@post.id), class: "postManage__edit"
-    = link_to "削除", post_path(@post.id), method: :delete, class: "postManage__delete"
+    = link_to "編集", edit_post_path(@post.id), class: "postmanage__edit"
+    = link_to "削除", post_path(@post.id), method: :delete, class: "postmanage__delete"
 
 .post-text
   = simple_format @post.content
