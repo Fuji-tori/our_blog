@@ -546,10 +546,7 @@ ul li {
 
 .row .row {
   width: auto;
-  margin-left: -0.9375em;
-  margin-right: -0.9375em;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 -0.9375em;
   max-width: none;
   *zoom: 1;
 }
