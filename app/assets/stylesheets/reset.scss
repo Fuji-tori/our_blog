@@ -348,9 +348,9 @@ table {
 *,
 *:before,
 *:after {
-  -moz-box-sizing: border-box;
+     -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 img,
@@ -429,24 +429,24 @@ i {
 }
 
 .animate {
-  -moz-transition-property: all;
-  -o-transition-property: all;
+     -moz-transition-property: all;
+       -o-transition-property: all;
   -webkit-transition-property: all;
-  transition-property: all;
-  -moz-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
+          transition-property: all;
+     -moz-transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  -moz-transition-timing-function: ease-in;
-  -o-transition-timing-function: ease-in;
+          transition-duration: 0.2s;
+     -moz-transition-timing-function: ease-in;
+       -o-transition-timing-function: ease-in;
   -webkit-transition-timing-function: ease-in;
-  transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
 }
 
 .button {
-  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.05) 1%, rgba(0, 0, 0, 0.2) 100%);
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.05) 1%, rgba(0, 0, 0, 0.2) 100%);
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1%, rgba(0, 0, 0, 0.2) 100%);
+  background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0.05) 1%,       rgba(0, 0, 0, 0.2) 100%);
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.05) 1%,       rgba(0, 0, 0, 0.2) 100%);
+  background-image:         linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1%, rgba(0, 0, 0, 0.2) 100%);
 }
 
 ul {
@@ -614,8 +614,9 @@ ul li {
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 /* sass */
-$white: #fff;
-$black: #000;
-$gray: #999;
-$green: #55c500;
+$white:      #fff;
+$black:      #000;
+
+$gray:       #999;
+$green:      #55c500;
 $white-gray: #f6f6f6;
