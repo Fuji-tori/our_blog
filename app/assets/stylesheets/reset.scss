@@ -265,8 +265,8 @@ select {
  *    `input` and others. */
 button,
 html input[type= "button"],
-input[type= "reset"],
-input[type= "submit"] {
+     input[type= "reset"],
+     input[type= "submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
@@ -284,7 +284,7 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10. */
 input[type= "checkbox"],
-input[type= "radio"] {
+input[type= "radio"]   {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -315,7 +315,7 @@ input[type= "search"]::-webkit-search-decoration {
 /*
  * Remove inner padding and border in Firefox 4+. */
 button::-moz-focus-inner,
-input::-moz-focus-inner {
+ input::-moz-focus-inner {
   border:  0;
   padding: 0;
 }
