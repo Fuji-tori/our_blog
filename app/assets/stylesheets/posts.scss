@@ -2,6 +2,7 @@ body {
   background-color: $white-gray;
   min-width: 650px;
 
+
   .header {
     height: 56px;
     width:  100%;
@@ -27,6 +28,7 @@ body {
       }
     }
   }
+
 
   .contents {
     margin: 30px auto 0;
@@ -124,6 +126,7 @@ body {
     }
   }
 
+
   .form {
     width:  85%;
     height: 100%;
@@ -139,7 +142,7 @@ body {
     &__text {
       margin-top: 15px;
     }
-    
+
     &__btn {
       display: block;
       width: 30%;
