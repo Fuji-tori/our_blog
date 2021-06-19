@@ -63,6 +63,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 # +gem
+#
 gem 'pry-rails'
 gem "haml-rails"
 # devise gem
