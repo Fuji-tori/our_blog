@@ -9,7 +9,6 @@
 ### Association
 - has_many :posts
 
-
 ## postsテーブル
 |Column |Type|Options|
 |-------|----|-------|
@@ -18,6 +17,7 @@
 
 ### Association
 - belongs_to :user
+
 
 <!-- 合計 テーブル:2
                 users
