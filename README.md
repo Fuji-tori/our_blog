@@ -20,6 +20,6 @@
 
 
 <!-- 合計 テーブル:2
-          users_2
-          posts_2
+  users =2
+  posts =2
 -->
