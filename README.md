@@ -19,7 +19,7 @@
 - belongs_to :user
 
 
-<!-- 合計 テーブル:2
+<!-- 合計 テーブル数:2
   users - 2
   posts - 2
 -->
