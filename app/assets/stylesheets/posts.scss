@@ -104,11 +104,11 @@ body {
       &__delete {
         display: block;
         border-radius: 5px;
+        padding: 0 10px;
+        margin-right: 10px;
         color:            $white;
         background-color: $green;
         text-decoration: none;
-        padding: 0 10px;
-        margin-right: 10px;
       }
       &__edit {
         margin-right: 10px;
