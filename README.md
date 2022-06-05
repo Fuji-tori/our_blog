@@ -20,7 +20,7 @@
 - belongs_to :user
 
 
-<!-- テーブル:2
-  users:2
-  posts:2
+<!-- テーブル数:2
+詳細 users:2
+    posts:2
 -->
