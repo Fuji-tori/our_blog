@@ -18,12 +18,12 @@
       %em
         (#{@minimum_password_length} characters minimum)
     %br/
-    = f.password_field :password, autocomplete: "新規パスワード"
+    = f.password_field :password, autocomplete: "パスワード"
     
   .field
     = f.label :password_confirmation
     %br/
-    = f.password_field :password_confirmation, autocomplete: "再度、新規パスワード"
+    = f.password_field :password_confirmation, autocomplete: "再度、パスワード"
     
   .actions
     = f.submit "ユーザ登録"
