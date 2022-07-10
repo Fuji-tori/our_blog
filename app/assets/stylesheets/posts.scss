@@ -34,11 +34,11 @@ body {
     width:  70%;
     background-color: $white;
     overflow: scroll;
+
     .content {
       padding: 10px;
       border-bottom: 1px solid $white-gray;
       display: flex;
-      
       &__left {
         padding-right: 20px;
         &--image {
@@ -79,12 +79,14 @@ body {
         text-align: center;
       }
     }
+
     .post-title {
       font-size:   20px;
       font-weight: bold;
       padding-top: 20px;
       text-align: center;
     }
+
     .post-author,
     .post-date {
       font-size: 15px;
@@ -113,9 +115,11 @@ body {
         margin-left:  10px;
       }
     }
+
     .post-text {
       margin: 20px 30px;
     }
+    
   }
   
   .form {
