@@ -1,1 +1,1 @@
-# [seeds.rb] no code
+# [seeds.rb]
