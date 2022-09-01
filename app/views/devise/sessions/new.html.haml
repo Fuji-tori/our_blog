@@ -5,12 +5,10 @@
     = f.label :email
     %br/
     = f.email_field :email, autofocus: true, autocomplete: "email"
-    
   .field
     = f.label :password
     %br/
     = f.password_field :password, autocomplete: "現在のパスワード"
-    
   - if devise_mapping.rememberable?
     .field
       = f.check_box :remember_me
