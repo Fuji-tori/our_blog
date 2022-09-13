@@ -20,6 +20,6 @@
 
 
 <!--
-詳細/users:2
-    posts:2
+テ/users:2
+  posts:2
 -->
