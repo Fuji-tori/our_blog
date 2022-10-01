@@ -545,7 +545,6 @@ ul li {
   max-width: none;
   *zoom: 1;
 }
-
 .row .row:before,
 .row .row:after {
   content: " ";
@@ -561,13 +560,11 @@ ul li {
   max-width: none;
   *zoom: 1;
 }
-
 .row .row.collapse:before,
 .row .row.collapse:after {
   content: " ";
   display: table;
 }
-
 .row .row.collapse:after {
   clear: both;
 }
