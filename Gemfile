@@ -62,10 +62,10 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # +gem
-# rails
+# rails ---------
 gem 'pry-rails'
 gem "haml-rails"
-# devise
+# devise --------
 gem 'devise'
 gem 'devise-i18n'
 gem 'devise-i18n-views'
