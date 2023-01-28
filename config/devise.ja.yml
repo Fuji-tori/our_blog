@@ -31,7 +31,7 @@ ja:
   devise:
     confirmations:
       new:
-        resend_confirmation_instructions: "アカウント確認メール再送"
+        resend_confirmation_instructions: "アカウント確認メール再送信"
     mailer:
       confirmation_instructions:
         action:      "アカウント確認"
