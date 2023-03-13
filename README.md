@@ -20,5 +20,5 @@
 
 <!--
 table/users:2
-      posts:2
+     /posts:2
 -->
