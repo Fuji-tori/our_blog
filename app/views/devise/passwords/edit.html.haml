@@ -10,11 +10,11 @@
       %em
         (#{@minimum_password_length} characters minimum)
       %br/
-    = f.password_field :password, autofocus: true, autocomplete: "新規パスワード入力"
+    = f.password_field :password, autofocus: true, autocomplete: "新規パスワード"
   .field
     = f.label :password_confirmation, "新規パスワード確認"
     %br/
-    = f.password_field :password_confirmation, autocomplete: "再度新規パスワード入力"
+    = f.password_field :password_confirmation, autocomplete: "再度新規パスワード"
     
   .actions
     = f.submit "パスワード変更"
