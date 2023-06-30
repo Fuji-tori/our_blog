@@ -10,10 +10,10 @@
 - has_many :posts
 
 ## postsテーブル
-|Column |Type|Options|
-|-------|----|-------|
-|title  |text||
-|content|text||
+|Column |Type |Options |
+|-------|-----|--------|
+|title  |text ||
+|content|text ||
 
 ### Association
 - belongs_to :user
