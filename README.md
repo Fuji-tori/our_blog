@@ -18,6 +18,7 @@
 ### Association
 - belongs_to :user
 
+
 <!--
 table/users:2
      /posts:2
