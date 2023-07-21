@@ -1,1 +1,1 @@
-# [seeds.rb]
+# seeds.rb
