@@ -20,6 +20,6 @@
 
 
 <!--
-users:2
-posts:2
+users:2 -:posts
+posts:2 -:user
 -->
