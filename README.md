@@ -20,7 +20,7 @@
 
 
 <!--
-テーブル:テーブル内 -- Association先
-users:2 -- posts
-posts:2 -- user
+テーブル:テーブル内 --Association先
+users:2 --posts
+posts:2 --user
 -->
