@@ -18,7 +18,6 @@
 ### Association
 - belongs_to :user
 
-
 <!--
 table:数 --Association先
 users:2 --posts
