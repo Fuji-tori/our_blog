@@ -19,7 +19,7 @@
 - belongs_to :user
 
 <!--
-table:数 --Association先
+table:0 --Association
 users:2 --posts
 posts:2 --user
 -->
