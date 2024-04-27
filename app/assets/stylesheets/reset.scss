@@ -519,7 +519,6 @@ ul li {
 .row:after {
   clear: both;
 }
-
 .row.collapse > .column,
 .row.collapse > .columns {
   position: relative;
@@ -531,7 +530,6 @@ ul li {
   margin-left:  0;
   margin-right: 0;
 }
-
 .row .row {
   width: auto;
   margin: 0 -0.9375em;
@@ -546,7 +544,6 @@ ul li {
 .row .row:after {
   clear: both;
 }
-
 .row .row.collapse {
   width: auto;
   margin: 0;
