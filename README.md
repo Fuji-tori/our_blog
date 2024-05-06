@@ -19,7 +19,8 @@
 - belongs_to :user
 
 <!--
-table:0 --Association/
+table:0 --Association
+/
 users:2 --posts
 posts:2 --user
 -->
