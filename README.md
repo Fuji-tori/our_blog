@@ -19,6 +19,6 @@
 - belongs_to :user
 
 <!--
-users:2 :posts
-posts:2 :user
+users|2 :posts
+posts|2 :user
 -->
