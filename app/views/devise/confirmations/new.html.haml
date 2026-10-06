@@ -7,5 +7,5 @@
     = f.email_field :email, autofocus: true, autocomplete: "email", value: (resource.pending_reconfirmation? ? resource.unconfirmed_email : resource.email)
   .actions
     = f.submit "パスワード再発行"
-    
+  
 = render "devise/shared/links"
