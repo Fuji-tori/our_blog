@@ -19,8 +19,8 @@
 - belongs_to :user
 
 <!--
-users|2|
+usersテーブル|2|
 - posts
-posts|2|
+postsテーブル|2|
 - user
 -->
